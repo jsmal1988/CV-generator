@@ -1,0 +1,281 @@
+body{
+    /* font-family: 'Roboto', sans-serif;
+    font-size: 14px; */
+    background: #f5f5f5;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+}
+p{
+    line-height: 1.5;
+}
+.main-container{
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #42A8C0;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-section{
+    background: #fff;
+    padding: 60px;
+    padding-right: 260px;
+}
+.left-section .section{
+    margin-bottom: 60px;
+}
+
+.left-section .section .upper-row {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    height: 60px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.left-section .section .company-details{
+    float: left;
+}
+
+.left-section .section .job-title{
+    color: #3F4650;
+    font-weight: 700;
+    font-size: 16px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.left-section .section .time {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #97AAC3;
+    float: right;
+  }
+
+.left-section .section img {
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    float: left;
+}
+.left-section .section .company {
+    color: #97AAC3;
+    text-align: left;
+}
+
+
+.left-section .section p {
+    padding-right: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #545E6C;
+}
+
+.left-section .tech-list-title{
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #545E6C;
+}
+
+.left-section .tech-list{
+    color: #545E6C;
+}
+
+.left-section .tech-list .tech-item p{
+    color: #545E6C;
+}
+
+.left-section .section-title{
+    text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.left-section .section-title i{
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #2d7788;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+
+.left-section .experience-section .item, .left-section .projects-section .item{
+    margin-bottom: 30px;
+}
+
+.right-section{
+    background:#42A8C0;
+    position: absolute;
+    right: 0;
+    width: 260px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+}
+
+.right-section a {
+    color: #fff;
+}
+
+.right-section .section-container {
+    margin-bottom: 30px;
+} 
+
+.right-section .section-header{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.right-section .profile-container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+}
+
+.right-section .name {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.right-section .job-title {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.right-section .photo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 130px;
+    width: 130px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.right-section .contact-container {
+    margin-bottom: 30x;
+}
+.right-section .item-list li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.right-section .item-list li:first-child{
+    margin-top: 10px;
+}
+
+i {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.section-header i{
+    font-size: 24px;
+}
+
+.right-section .item-list li.degree{
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+
+.right-section .item-list li.school{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+.right-section .item-list li.date{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.right-section .item-list .lang-level{
+    color: rgba(255, 255, 255, 0.6);
+}
+.right-section .tech-container table{
+    margin-left: 10px;
+}
+
+.right-section .tech-container .grid-container tr{
+    height: 100%;
+}
+
+
+.right-section .tech-container .grid-container th{
+  height: 50px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+.right-section .tech-container .grid-container img{
+   margin-top: 0;
+   margin-bottom: 10px;
+   width: 50px;
+   height: 50px;
+   border-radius: 0%; 
+   background-color: white;
+}
+
+.footer {
+    padding: 30px;
+    padding-top: 60px;
+  }
+  .footer .copyright {
+    line-height: 1.6;
+    color: #545E6C;
+    font-size: 13px;
+  }
+  .footer .fa-heart {
+    color: #fb866a;
+  }
+
+  .footer .text-center{
+    width: 900px;
+    margin: 0px auto;
+  }
